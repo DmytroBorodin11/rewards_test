@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@font-face {
+  src: url('./assets/fonts/LiberationSans-Bold.ttf');
+  font-family: 'LiberationSans-Bold';
+}
+@font-face {
+  src: url('./assets/fonts/LiberationSans-Regular.ttf');
+  font-family: 'LiberationSans-Regular';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+a, img, button, input {
+  display: block;
+}
+a, img, button {
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+button:focus, input:focus {
+  outline: none;
+} 
+html {
+  font-size: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  width: 100%;
+}
+.wrap {
+  width: 85.56%;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 1200px) {
+  .wrap {
+    width: 93.75%;
   }
 }

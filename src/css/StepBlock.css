@@ -1,0 +1,148 @@
+.step__block {
+  width: 100%;
+  padding: 13.54% 0;
+}
+
+.steps__title {
+  text-align: center;
+  font-family: 'LiberationSans-Bold';
+  font-size: 3.4rem;
+  line-height: 150.02%;
+  margin-bottom: 2rem;
+}
+
+.number {
+  text-align: center;
+  font-family: 'LiberationSans-Bold';
+  font-size: 6rem;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #276AFD;
+  margin-bottom: 2.1rem;
+}
+
+.step__title {
+  font-family: 'LiberationSans-Bold';
+  font-size: 2rem;
+  text-align: center;
+  line-height: 150.02%;
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin-bottom: 2.4rem;
+}
+
+.step__input, .step__button {
+  width: 23.3rem;
+}
+
+.MuiFormControl-root.step__input {
+  margin: 0 auto;
+  display: block;
+}
+
+.MuiFormControl-root.step__input input {
+  font-family: 'LiberationSans-Regular';
+  padding: 1.3rem 1.5rem;
+  border: 2px solid #276AFD;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.MuiInputBase-root {
+  width: 100%;
+}
+
+.MuiInput-underline:after, .MuiInput-underline:before {
+  display: none;
+}
+
+.MuiButtonBase-root.step__button {
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background: #276AFD;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.MuiButtonBase-root.step__button:hover {
+  background: #276AFD;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.MuiButtonBase-root.step__button span {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-family: 'LiberationSans-Bold';
+}
+
+@media screen and (max-width: 1200px) {
+  .step__title {
+    font-size: 1.6rem;
+  }
+  .number {
+    font-size: 4.8rem;
+  }
+  .step__input, .step__button {
+    width: 20rem;
+  }
+  .MuiButton-root {
+    padding: 0;
+  }
+  .MuiButtonBase-root.step__button {
+    height: 4rem;
+  }
+  .MuiButtonBase-root.step__button span {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .MuiFormControl-root.step__input input {
+    padding: 1.1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .step__title {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .number {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .MuiGrid-root.steps__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .MuiGrid-root.step {
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .MuiGrid-root.step:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .steps__title {
+    margin-bottom: 1.6rem;
+  }
+  .MuiGrid-root.step {
+    margin-bottom: 2.4rem;
+  }
+  .step__input, .step__button {
+    width: 16.3rem;
+  }
+}
+/*# sourceMappingURL=StepBlock.css.map */
