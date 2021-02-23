@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/rewards_test/static/css/main.88db36d7.chunk.css",
+    "main.js": "/rewards_test/static/js/main.be25fd1e.chunk.js",
+    "main.js.map": "/rewards_test/static/js/main.be25fd1e.chunk.js.map",
+    "runtime-main.js": "/rewards_test/static/js/runtime-main.364d6f51.js",
+    "runtime-main.js.map": "/rewards_test/static/js/runtime-main.364d6f51.js.map",
+    "static/js/2.4d9a5413.chunk.js": "/rewards_test/static/js/2.4d9a5413.chunk.js",
+    "static/js/2.4d9a5413.chunk.js.map": "/rewards_test/static/js/2.4d9a5413.chunk.js.map",
+    "static/js/3.c1b21fdc.chunk.js": "/rewards_test/static/js/3.c1b21fdc.chunk.js",
+    "static/js/3.c1b21fdc.chunk.js.map": "/rewards_test/static/js/3.c1b21fdc.chunk.js.map",
+    "index.html": "/rewards_test/index.html",
+    "static/css/main.88db36d7.chunk.css.map": "/rewards_test/static/css/main.88db36d7.chunk.css.map",
+    "static/js/2.4d9a5413.chunk.js.LICENSE.txt": "/rewards_test/static/js/2.4d9a5413.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rewards_test/static/media/LiberationSans-Regular.9c10fb4d.ttf",
+    "static/media/call.db10c282.svg": "/rewards_test/static/media/call.db10c282.svg",
+    "static/media/call_img.21377059.svg": "/rewards_test/static/media/call_img.21377059.svg",
+    "static/media/geo.55189257.svg": "/rewards_test/static/media/geo.55189257.svg",
+    "static/media/google.d545007d.svg": "/rewards_test/static/media/google.d545007d.svg",
+    "static/media/green_arrow.9cdd80ff.svg": "/rewards_test/static/media/green_arrow.9cdd80ff.svg",
+    "static/media/Header.css": "/rewards_test/static/media/header_bg_min.d12b3607.png",
+    "static/media/header_img.31763809.png": "/rewards_test/static/media/header_img.31763809.png",
+    "static/media/logo.914872fb.svg": "/rewards_test/static/media/logo.914872fb.svg",
+    "static/media/phone__img.5bae5497.png": "/rewards_test/static/media/phone__img.5bae5497.png",
+    "static/media/red_arrow.f311e247.svg": "/rewards_test/static/media/red_arrow.f311e247.svg",
+    "static/media/right_img.e4db90c2.svg": "/rewards_test/static/media/right_img.e4db90c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.364d6f51.js",
+    "static/js/2.4d9a5413.chunk.js",
+    "static/css/main.88db36d7.chunk.css",
+    "static/js/main.be25fd1e.chunk.js"
+  ]
+}
